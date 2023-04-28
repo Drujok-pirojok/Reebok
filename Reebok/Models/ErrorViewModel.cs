@@ -1,4 +1,4 @@
-namespace Reebok.Models
+namespace Reebok.Web.Models
 {
     public class ErrorViewModel
     {

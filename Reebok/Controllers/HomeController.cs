@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Reebok.Models;
+using Microsoft.Extensions.Logging;
+using Reebok.Web.Models;
 using System.Diagnostics;
 
-namespace Reebok.Controllers
+namespace Reebok.Web.Controllers
 {
     public class HomeController : Controller
     {
