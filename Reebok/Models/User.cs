@@ -1,6 +1,9 @@
-﻿namespace Reebok.Web.Models
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace CustomIdentityApp.Models
 {
-    public class Class
+    public class User : IdentityUser
     {
+        public int Year { get; set; }
     }
 }
