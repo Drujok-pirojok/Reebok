@@ -1,4 +1,5 @@
-using Reebok.Web;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
 
 namespace Reebok.Web;
 public class Program

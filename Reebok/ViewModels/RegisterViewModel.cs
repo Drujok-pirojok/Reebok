@@ -6,7 +6,7 @@ namespace Reebok.Web.ViewModels
     {
         [Required]
         [Display(Name = "Email")]
-        public string? Email { get; set; }
+        public string Email { get; set; }
 
         [Required]
         [Display(Name = "Год рождения")]
@@ -15,12 +15,12 @@ namespace Reebok.Web.ViewModels
         [Required]
         [DataType(DataType.Password)]
         [Display(Name = "Пароль")]
-        public string? Password { get; set; }
+        public string Password { get; set; }
 
         [Required]
         [Compare("Password", ErrorMessage = "Пароли не совпадают")]
         [DataType(DataType.Password)]
         [Display(Name = "Подтвердить пароль")]
-        public string? PasswordConfirm { get; set; }
+        public string PasswordConfirm { get; set; }
     }
 }
