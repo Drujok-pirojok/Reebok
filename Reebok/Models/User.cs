@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace CustomIdentityApp.Models
+namespace Reebok.Web.Models
 {
     public class User : IdentityUser
     {
