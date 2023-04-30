@@ -18,5 +18,18 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+.reebok-brand {
+    width: 95px;
+    height: 45px;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: dashed;
 }

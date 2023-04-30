@@ -25,6 +25,7 @@ namespace Reebok.Web
                 .AddEntityFrameworkStores<ApplicationContext>();
 
             services.AddControllersWithViews();
+            services.AddRazorPages();
         }
 
         public void Configure(IApplicationBuilder app)
@@ -36,7 +37,7 @@ namespace Reebok.Web
 
             app.UseRouting();
 
-            app.UseAuthentication();    // подключение аутентификации
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
