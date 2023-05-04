@@ -1,5 +1,5 @@
 ﻿@model Reebok.Web.ViewModels.RegisterViewModel
-<h2>Регистрация нового пользователя</h2>
+<h2>New User Registration</h2>
 <form method="post" asp-controller="Account" asp-action="Register">
     <div asp-validation-summary="ModelOnly"></div>
     <div class="mb-3">
@@ -8,21 +8,21 @@
         <span asp-validation-for="Email"></span>
     </div>
     <div>
-        <label asp-for="Year"></label><br />
-        <input asp-for="Year" />
+        <label asp-for="Year" for="Year" class="form-label">Year</label>
+        <input asp-for="Year" class="form-control" placeholder="2000">
         <span asp-validation-for="Year"></span>
     </div>
     <div>
-        <label asp-for="Password"></label><br />
-        <input asp-for="Password" />
+        <label asp-for="Password" for="Year" class="form-label">Password</label>
+        <input asp-for="Password" type="password" class="form-control" placeholder="********">
         <span asp-validation-for="Password"></span>
     </div>
     <div>
-        <label asp-for="PasswordConfirm"></label><br />
-        <input asp-for="PasswordConfirm" />
+        <label asp-for="PasswordConfirm" for="Year" class="form-label">PasswordConfirm</label>
+        <input asp-for="PasswordConfirm" type="password" class="form-control" placeholder="********">
         <span asp-validation-for="PasswordConfirm"></span>
     </div>
     <div>
-        <input type="submit" value="Регистрация" />
+        <input type="submit" class="btn btn-dark" value="Registration" />
     </div>
 </form>
